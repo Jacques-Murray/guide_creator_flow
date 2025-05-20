@@ -54,7 +54,7 @@ class GuideCreatorFlow(Flow[GuideCreatorState]):
         print("Creating guide outline...")
 
         # Initialize the LLM
-        llm = LLM(model="gemini/gemini-2.5-flash-preview-05-20", response_format=GuideOutline)
+        llm = LLM(model="gemini/gemini-2.5-flash-preview-04-17", response_format=GuideOutline)
 
         # Create the messages for the outline
         messages = [
